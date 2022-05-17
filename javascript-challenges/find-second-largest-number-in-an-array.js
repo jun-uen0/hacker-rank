@@ -1,3 +1,5 @@
+// link: https://www.hackerrank.com/contests/javascript-challenges/challenges/find-second-largest-number-in-an-array/submissions/code/1344755430
+
 'use strict'
 process.stdin.resume()
 process.stdin.setEncoding('utf-8')
