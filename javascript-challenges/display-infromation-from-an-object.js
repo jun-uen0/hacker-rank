@@ -12,7 +12,7 @@ function displayInformation() {
     } else {
       console.log(`You still need to read '${library[i].title}' by ${library[i].author}.`)
     }
-  }  
+  }
 } 
 
 var library = [ 
@@ -32,5 +32,6 @@ var library = [
    readingStatus: false
  }
 ]
-
+console.time("time")
 displayInformation()
+console.timeEnd("time")
